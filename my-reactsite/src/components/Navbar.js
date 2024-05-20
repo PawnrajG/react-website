@@ -14,16 +14,16 @@ const Navbar = () =>{
                 <h4 className="text-2xl font-bold mx-1 px-1 text-cyan-300">REACT.</h4>
             </div> 
             <ul className="hidden flex-row md:flex">
-                <li className="mx-4 p-1 text-cyan-300 hover:text-cyan-100 cursor-pointer transform scale-105 transition ease-in-out duration-300">Home</li>
-                <li className="mx-4 p-1 text-cyan-300 hover:text-cyan-100 cursor-pointer transform scale-105 transition ease-in-out duration-300">Company</li>
-                <li className="mx-4 p-1 text-cyan-300 hover:text-cyan-100 cursor-pointer transform scale-105 transition ease-in-out duration-300">Resources</li>
-                <li className="mx-4 p-1 text-cyan-300 hover:text-cyan-100 cursor-pointer transform scale-105 transition ease-in-out duration-300">Contact</li>
-                <li className="mx-4 p-1 text-cyan-300 hover:text-cyan-100 cursor-pointer transform scale-105 transition ease-in-out duration-300">About</li>
+                <li className="mx-4 p-1 text-cyan-300 hover:text-cyan-100 cursor-pointer transform hover:scale-110 transition ease-in-out duration-300">Home</li>
+                <li className="mx-4 p-1 text-cyan-300 hover:text-cyan-100 cursor-pointer transform hover:scale-110 transition ease-in-out duration-300">Company</li>
+                <li className="mx-4 p-1 text-cyan-300 hover:text-cyan-100 cursor-pointer transform hover:scale-110 transition ease-in-out duration-300">Resources</li>
+                <li className="mx-4 p-1 text-cyan-300 hover:text-cyan-100 cursor-pointer transform hover:scale-110 transition ease-in-out duration-300">Contact</li>
+                <li className="mx-4 p-1 text-cyan-300 hover:text-cyan-100 cursor-pointer transform hover:scale-110 transition ease-in-out duration-300">About</li>
             </ul>
             <div className="md:hidden text-cyan-300 cursor-pointer" onClick = {handleMenu}>
                 {!menu ? <RiCloseLargeFill size={20}/> : <RiMenuFill size={20}/>}
             </div>
-            <div className={!menu ? "md:hidden fixed w-[40%] top-0 left-0 h-full border-r border-r-gray-600 bg-[#000300] ease-in-out duration-1000" : "hidden left-[-100%]"}>
+            <div className={!menu ? "md:hidden fixed w-64 top-0 left-0 h-full border-r border-r-gray-600 bg-[#000300] ease-in-out duration-500" : "hidden left-[-100%]"}>
                 <div className="flex flex-row items-center m-5">
                     <img src="logo512.png" className="h-11" />
                     <h4 className="text-2xl font-bold mx-1 px-1 text-cyan-300">REACT.</h4>
