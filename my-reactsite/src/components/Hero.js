@@ -4,6 +4,7 @@ const Hero = () =>{
     return(
         <div className="text-white">
             <div className="font-bold mx-auto max-w-screen-lg flex flex-col h-screen w-full p-10 justify-center items-center">
+                <img src="logo512.png" className="h-32 animate-bounce"/>
                 <h2 className="uppercase md:text-2xl text-sm text-cyan-300 m-2 p-1">To learn about the react</h2>
                 <h1 className="md:text-6xl text-xl w-auto text-white m-2 p-1">Create Web in React.</h1>
                 <ReactTyped className="text-sm md:text-2xl md:max-w-full max-w-lg text-white m-2 p-1 self-center" strings={["A fast and interactive user interface."," A fast and interactive user experience."]} typeSpeed={100} backSpeed={50} loop></ReactTyped>
