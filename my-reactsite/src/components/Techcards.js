@@ -4,7 +4,7 @@ import REACT from '../assets/react.png';
 import CSS from '../assets/tailwindcss.png';
 const Techcards = () =>{
     return(
-        <div className='w-full bg-white my-8'>
+        <div className='w-full bg-white my-8' id='techcards'>
             <h1 className='text-2xl font-bold text-center p-10 text-cyan-400 md:text-4xl'>Technologies used</h1>
             <div className='max-w-screen-lg mx-auto grid grid-row-1 gap-0 md:grid-cols-3 p-4'>
                 <div className='text-center h-auto w-full md:w-64 text-black text-lg flex flex-col justify-around items-center shadow-xl border-2 p-3 my-3 md:ml-4 md:p-3 md:my-10 rounded-xl hover:scale-105 duration-300'>

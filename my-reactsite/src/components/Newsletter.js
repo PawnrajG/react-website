@@ -2,7 +2,7 @@ import React from "react";
 
 const Newsletter = () =>{
     return(
-        <div className="mt-4 max-w-screen-lg mx-auto flex flex-col md:flex-row w-full h-auto bg-black text-white justify-center items-center">
+        <div className="my-28 max-w-screen-lg mx-auto flex flex-col md:flex-row w-full h-auto bg-black text-white justify-center items-center" id='newsletter'>
             <div className="m-4">
                 <h2 className="text-xl font-bold md:text-2xl">Want tips & tricks to optimize you flow?</h2>
                 <p className="mt-5">Sign up to our newsletter and stay up to date.</p>

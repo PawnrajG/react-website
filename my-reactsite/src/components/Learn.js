@@ -2,7 +2,7 @@ import React from "react";
 
 const Learn = () =>{
     return(
-        <div className="w-full bg-slate-100">
+        <div className="w-full bg-slate-100 my-28" id="learn">
             <div className="mx-auto max-w-screen-lg grid sm:grid-cols-2 justify-center items-center p-3">
                 <iframe className="rounded-3xl w-auto h-64 md:w-[475px] md:h-[300px] m-5" src="https://www.youtube.com/embed/SqcY0GlETPk?si=EZ-baZAsuBWvkvyF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <div className="text-black font-bold m-5 flex flex-col">

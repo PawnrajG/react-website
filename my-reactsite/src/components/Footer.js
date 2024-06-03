@@ -7,7 +7,7 @@ import {
 } from 'react-icons/fa';
 const Footer = () =>{
     return(
-        <div className='bg-black my-10'>
+        <div className='bg-black my-10' id='footer'>
             <div className='max-w-screen-lg mx-auto w-full flex flex-row justify-around'>
                 <section className='md:m-5 w-40 h-10'>
                     <div className='flex flex-row justify-center items-center w-32 ml-3 md:ml-4'>

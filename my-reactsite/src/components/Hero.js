@@ -2,7 +2,7 @@ import React from "react";
 import {ReactTyped} from "react-typed";
 const Hero = () =>{
     return(
-        <div className="text-white">
+        <div className="text-white" id='hero'>
             <div className="font-bold mx-auto max-w-screen-lg flex flex-col h-screen w-full md:mt-3 p-5 justify-center items-center">
                 <img src="logo192.png" className="h-24 md:h-32 animate-bounce"/>
                 <h2 className="text-center uppercase md:text-2xl text-sm text-cyan-300 m-2 p-1">To learn about the react</h2>
