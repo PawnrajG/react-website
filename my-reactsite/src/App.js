@@ -4,7 +4,9 @@ import Hero from "./components/Hero";
 import Learn from "./components/Learn";
 import Newsletter from "./components/Newsletter";
 import Techcards from "./components/Techcards";
-function App() {
+import Footer from "./components/Footer";
+
+const App = () =>{
   return (
     <>
       <Navbar />
@@ -12,6 +14,7 @@ function App() {
       <Learn />
       <Newsletter />
       <Techcards />
+      <Footer />
     </>
   );
 }
