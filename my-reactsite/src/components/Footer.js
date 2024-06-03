@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-scroll';
 import {
     FaFacebookSquare,
     FaGithubSquare,
@@ -26,11 +27,11 @@ const Footer = () =>{
                 </section>
                 <section className='h-auto w-40 md:p-5 mx-5'>
                     <ul className="md:text-lg text-sm flex flex-col text-end md:text-justify">
-                        <li className="m-2 p-1 text-cyan-300 hover:text-cyan-100 cursor-pointer transform hover:scale-110 transition ease-in-out duration-300">Home</li>
-                        <li className="m-2 p-1 text-cyan-300 hover:text-cyan-100 cursor-pointer transform hover:scale-110 transition ease-in-out duration-300">Learn</li>
-                        <li className="m-2 p-1 text-cyan-300 hover:text-cyan-100 cursor-pointer transform hover:scale-110 transition ease-in-out duration-300">Resources</li>
-                        <li className="m-2 p-1 text-cyan-300 hover:text-cyan-100 cursor-pointer transform hover:scale-110 transition ease-in-out duration-300">Contact</li>
-                        <li className="m-2 p-1 text-cyan-300 hover:text-cyan-100 cursor-pointer transform hover:scale-110 transition ease-in-out duration-300">About</li>
+                        <Link to="hero" spy={true} smooth={true} offset={1} duration={500} className="m-2 p-1 text-cyan-300 hover:text-cyan-100 cursor-pointer transform hover:scale-110 transition ease-in-out duration-300">Home</Link>
+                        <Link to="learn" spy={true} smooth={true} offset={1} duration={500} className="m-2 p-1 text-cyan-300 hover:text-cyan-100 cursor-pointer transform hover:scale-110 transition ease-in-out duration-300">Learn</Link>
+                        <Link to="newsletter" spy={true} smooth={true} offset={1} duration={500} className="m-2 p-1 text-cyan-300 hover:text-cyan-100 cursor-pointer transform hover:scale-110 transition ease-in-out duration-300">Contact</Link>
+                        <Link to="techcards" spy={true} smooth={true} offset={11} duration={500} className="m-2 p-1 text-cyan-300 hover:text-cyan-100 cursor-pointer transform hover:scale-110 transition ease-in-out duration-300">Resources</Link>
+                        <Link to="footer" spy={true} smooth={true} offset={50} duration={500} className="m-2 p-1 text-cyan-300 hover:text-cyan-100 cursor-pointer transform hover:scale-110 transition ease-in-out duration-300">About</Link>
                     </ul>
                 </section>
                 <div className='hidden md:flex flex-col justify-around items-center'>
