@@ -4,7 +4,7 @@ const Hero = () =>{
     return(
         <div className="text-white" id='hero'>
             <div className="font-bold mx-auto max-w-screen-lg flex flex-col h-screen w-full md:mt-3 p-5 justify-center items-center">
-                <img src="logo192.png" className="h-24 md:h-32 animate-bounce"/>
+                <img src="logo192.png" className="h-24 md:h-32 animate-bounce -z-10"/>
                 <h2 className="text-center uppercase md:text-2xl text-sm text-cyan-300 m-2 p-1">To learn about the react</h2>
                 <h1 className="text-center md:text-6xl text-2xl w-auto text-white m-2 p-1">Create Web in React.</h1>
                 <ReactTyped className="text-sm md:text-2xl md:max-w-full max-w-lg text-white m-2 p-1 self-center text-center" strings={["A fast and interactive user interface."," A fast and interactive user experience."]} typeSpeed={100} backSpeed={50} loop></ReactTyped>
