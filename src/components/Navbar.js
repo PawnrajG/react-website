@@ -9,7 +9,7 @@ const Navbar = () =>{
         setMenu(!menu);  // when menu is clicked then setMenu(true)
     };
     return(
-        <div className="fixed mx-auto max-w-screen-lg text-white flex flex-row w-full justify-between items-center p-4 bg-black" id='navbar'>
+        <div className="mx-auto max-w-screen-lg text-white flex flex-row w-full justify-between items-center p-4 bg-black" id='navbar'>
             <div className="flex flex-row items-center">
                 <img src="logo192.png" className="h-11" />
                 <h4 className="text-2xl font-bold mx-1 px-1 text-cyan-300">REACT</h4>
